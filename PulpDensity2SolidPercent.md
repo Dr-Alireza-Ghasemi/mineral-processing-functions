@@ -6,9 +6,9 @@ This function converts **pulp density** to **mass solid percent**, using the kno
 ---
 
 ## 📥 Syntax
-
+```excel
 =PULPDENSITY.TO.MASS.SOLIDPERCENT(D, S)
-
+```
 ---
 
 ## 📌 Parameters
@@ -34,9 +34,9 @@ $$
 ## 💡 Example
 
 If the pulp density is **1.35 t/m³** and the solid density is **2.7 t/m³**, then:
-
+```excel
 =PULPDENSITY.TO.MASS.SOLIDPERCENT(1.35, 2.7)
-
+```
 **Result**: 45.00
 
 ---
