@@ -24,9 +24,9 @@ This function converts **volume solid percent** to **mass solid percent** using 
 
 ## 🧮 Formula
 
-\[
+$$
 \text{Mass\%} = \frac{sp \times \rho}{sp \times \rho + (100 - sp)} \times 100
-\]
+$$
 
 Where:  
 - `sp` = volume solid percent  
