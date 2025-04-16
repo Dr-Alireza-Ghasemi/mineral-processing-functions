@@ -22,9 +22,9 @@ This function converts **pulp density** to **mass solid percent**, using the kno
 
 ## 🧮 Formula
 
-\[
+$$
 \text{Mass \%} = \frac{100 \times S \times (D - 1)}{D \times (S - 1)}
-\]
+$$
 
 - `D`: pulp density (t/m³)
 - `S`: solid density (t/m³)
