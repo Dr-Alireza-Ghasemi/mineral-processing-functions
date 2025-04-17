@@ -23,29 +23,6 @@ This function calculates the **Dx**, which is the particle size corresponding to
 
 ---
 
-## 🧮 Formula
-
-The function calculates the **Dx** using the following logic:
-
-### Step 1: Find the Index Where Cumulative Passing < `xx`
-The algorithm iterates through the cumulative passing array (`m`) to locate the first index where the value is less than the custom passing percentage `xx`.  
-
-### Step 2: Linear Interpolation
-If the **Dx** value falls between two sieve sizes, the function interpolates between the sizes to find the exact value:
-
-$$
-Dx = s[c - 1] - \frac{(s[c] - s[c - 1])}{(m[c] - m[c - 1])} \times (m[c - 1] - xx)
-$$
-
-Where:
-- `s[c - 1]` and `s[c]` are the sieve sizes before and after the custom passing percentage point.
-- `m[c - 1]` and `m[c]` are the corresponding cumulative passing percentages.
-
-### Step 3: Edge Case Handling
-If all cumulative passing values are above `xx`, the function returns the largest sieve size in the array.
-
----
-
 ## 💡 Example
 
 ### Example 1:
