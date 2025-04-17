@@ -20,24 +20,6 @@ This function calculates the **D63** (the particle size at which 63% of the mate
 | `s` (Size Array)        | Double[]  | An array of sieve sizes (e.g., [100, 80, 60, 40, 20]).                      |
 | `m` (Cumulative Passing Array) | Double[] | An array of cumulative passing percentages corresponding to the sieve sizes (e.g., [0.2, 0.4, 0.6, 0.8, 0.9]). Note that these values should be fractions (e.g., 0.6 for 60%). |
 
----
-
-## 🧮 Formula
-
-The **D63** is calculated using a logarithmic transformation of the Rosin-Rammler distribution equation and linear regression:
-
-1. **Logarithmic Transformations**:
-   - Transform the sieve sizes (`s`) and cumulative passing percentages (`m`) as follows:
-     - \( x[i] = \ln(s[i]) \)
-     - \( y[i] = \ln(\ln(1 / (1 - m[i]))) \)
-
-2. **Linear Regression**:
-   - Perform a linear regression between \( x[i] \) and \( y[i] \):
-     - \( y = \text{slope} \times x + \text{intercept} \)
-
-3. **Calculate D63**:
-   - Using the regression coefficients:
-     - \( D63 = e^{-\text{intercept} / \text{slope}} \)
 
 ---
 
