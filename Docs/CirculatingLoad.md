@@ -23,24 +23,6 @@ This function calculates the **circulating load** of a grinding circuit using li
 
 ---
 
-## 🧮 Formula
-
-The circulating load is calculated using the following steps:
-
-1. **Determine Differences for Each Size Class**:
-   - \( y[i] = f[i] - o[i] \)
-   - \( x[i] = u[i] - f[i] \)
-
-2. **Perform Linear Regression**:
-   - Fit a linear regression line to the data points \( (x[i], y[i]) \):
-     - \( y = \text{slope} \cdot x + \text{intercept} \)
-
-3. **Circulating Load**:
-   - The **circulating load** is the slope of the regression line:
-     - \( \text{Circulating Load} = \text{slope} \)
-
----
-
 ## 💡 Example
 
 ### Example 1:
