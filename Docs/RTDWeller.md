@@ -22,19 +22,6 @@ This function calculates the **Weller RTD (Residence Time Distribution)** based 
 | `Ts`            | Double         | The short-circuiting time.                                                  |
 | `Tl`            | Double         | The longitudinal dispersion time.                                           |
 
----
-
-## 🧮 Formula
-
-The Weller RTD is calculated using the following formula:
-
-$$
-\text{RTD}(t) = \left(B \cdot e^B - A \cdot e^B + A \cdot e^{B \cdot \frac{T_s}{T_l}}\right) \cdot \frac{A}{T_l}
-$$
-
-Where:  
-- \( A = \frac{T_l}{T_l - T_s} \)  
-- \( B = \frac{-(t - T_{pf})}{T_s} \)
 
 ---
 
