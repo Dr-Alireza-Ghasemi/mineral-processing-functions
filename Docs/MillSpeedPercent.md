@@ -20,20 +20,6 @@ This function converts the actual mill speed (in RPM) to a percentage of the **c
 | `d` (Diameter)      | Double | The diameter of the mill in meters (e.g., 2.5 m).     |
 | `RPM`               | Double | The actual speed of the mill in revolutions per minute (RPM). |
 
----
-
-## 🧮 Formula
-
-The mill speed percentage is calculated using the following formula:
-
-$$
-\text{Mill Speed Percent} = \frac{\text{RPM} \times 100}{\frac{42.3}{\sqrt{d}}}
-$$
-
-Where:  
-- \( d \) = diameter of the mill in meters.  
-- \( \text{RPM} \) = actual speed of the mill in revolutions per minute.  
-- \( \frac{42.3}{\sqrt{d}} \) = critical speed of the mill in RPM.
 
 ---
 
