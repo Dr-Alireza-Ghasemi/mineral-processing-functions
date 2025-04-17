@@ -1,55 +1,74 @@
-# 🔁 CIRCULATINGLOAD
+# 🔁 RECOVERY.GRADE
 
 🔹 **Description**:  
-This function calculates the **circulating load** of a grinding circuit using linear regression analysis of size class weight fractions in feed, underflow, and overflow streams.
+The term "**recovery**" refers to the percentage of the total mineral present in the ore that is extracted into the concentrate. This function calculates the recovery based on the grades of the concentrate, tail, and feed.
 
 ---
 
 ## 📥 Syntax
 
 ```excel
-=CIRCULATINGLOAD(f, u, o)
+=RECOVERY.GRADE(c, t, f)
 ```
 
 ---
 
 ## 🧾 Parameters
 
-| Parameter          | Type      | Description                                                                 |
-|---------------------|-----------|-----------------------------------------------------------------------------|
-| `f` (Feed Weight Fraction) | Double[]  | An array of weight fractions (or percentages) in each size class of the feed stream. |
-| `u` (Underflow Weight Fraction) | Double[]  | An array of weight fractions (or percentages) in each size class of the underflow stream. |
-| `o` (Overflow Weight Fraction) | Double[]  | An array of weight fractions (or percentages) in each size class of the overflow stream. |
+| Parameter                | Type   | Description                                                                 |
+|---------------------------|--------|-----------------------------------------------------------------------------|
+| `c` (Grade of Concentrate) | Double | The grade of the concentrate.                                               |
+| `t` (Grade of Tail)        | Double | The grade of the tail.                                                      |
+| `f` (Grade of Feed)        | Double | The grade of the feed.                                                      |
+
+---
+
+## 🧮 Formula
+
+The recovery percentage is calculated using the following formula:
+
+$$
+\text{Recovery (\\%)} = \frac{c \cdot (f - t)}{f \cdot (c - t)} \cdot 100
+$$
+
+Where:  
+- \( c \): Grade of the concentrate.  
+- \( t \): Grade of the tail.  
+- \( f \): Grade of the feed.  
 
 ---
 
 ## 💡 Example
 
 ### Example 1:
-Calculate the circulating load for the following weight fractions:  
-- Feed: **[0.4, 0.6, 0.8]**  
-- Underflow: **[0.5, 0.7, 0.9]**  
-- Overflow: **[0.3, 0.4, 0.5]**
+Calculate the recovery for the following parameters:  
+- Grade of concentrate (\( c \)): **30% (0.30)**  
+- Grade of tail (\( t \)): **5% (0.05)**  
+- Grade of feed (\( f \)): **10% (0.10)**
 
 ```excel
-=CIRCULATINGLOAD({0.4, 0.6, 0.8}, {0.5, 0.7, 0.9}, {0.3, 0.4, 0.5})
+=RECOVERY.GRADE(0.30, 0.05, 0.10)
 ```
 
-**Result**: `1.25` (approximate value)
+**Result**: `75%`
 
 ---
 
 ## 📝 Notes
 
-- Ensure the arrays `f`, `u`, and `o` have the same length.
-- The function uses the `SimpleRegression.Fit` method to compute the regression line.
-- The circulating load is expressed as a ratio or percentage.
+- Ensure that the grades (`c`, `t`, and `f`) are expressed as decimals (e.g., 30% as 0.30).
+- The result is returned as a percentage value.
 - The function returns `-1` if user authentication fails.
 
 ---
 
+📌 **Help Topic**:  
+For more details, visit the [documentation](https://github.com/Dr-Alireza-Ghasemi/mineral-processing-functions/blob/main/Docs/RecoveryGrade.md).
+
+---
+
 📌 **Related Functions**:
-- N/A  
+- [`RECOVERY.WEIGHT`](./RecoveryWeight.md)
 
 ---
 
