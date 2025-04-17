@@ -25,24 +25,6 @@ This function calculates the **hydrocyclone diameter** in centimeters (**cm**) b
 
 ---
 
-## 🧮 Formula
-
-This function calculates the cyclone diameter using the following formula:
-
-$$
-D = \exp\left(\frac{\ln\left(P^{0.28} \cdot (Rho - 1)^{0.5} \cdot (53 - \text{SolidPercentMass2Vol}(sp, Rho))^{1.43} \cdot S \cdot (-3.162 \cdot \ln(Q) + 15.1)\right)}{0.66} - 12.358\right)
-$$
-
-Where:  
-- `SolidPercentMass2Vol(sp, Rho)` converts feed solid percent (`sp`) to volume percent based on particle density (`Rho`).
-- `P` = pressure drop in **kPa**.
-- `Rho` = particle density in **t/m³**.
-- `sp` = feed solid percent.
-- `S` = particle size in **µm**.
-- `Q` = required passing percent.
-
----
-
 ## 💡 Example
 
 Calculate the hydrocyclone diameter with the following parameters:  
