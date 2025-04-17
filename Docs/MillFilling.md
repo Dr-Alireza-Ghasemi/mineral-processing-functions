@@ -22,27 +22,6 @@ This function estimates the **mill filling percentage**, which indicates the vol
 
 ---
 
-## 🧮 Formula
-
-The mill filling percentage is calculated using the following formula:
-
-1. Calculate the angle \( \beta \) in radians:
-   $$
-   \beta = \pi - 2 \cdot \arcsin\left(\frac{h - d / 2}{d / 2}\right)
-   $$
-
-2. Calculate the filling percentage:
-   $$
-   \text{Filling Percent} = \frac{1}{2} \cdot \frac{\beta - \sin(\beta)}{\pi} \cdot 100
-   $$
-
-Where:  
-- \( d \) = diameter of the mill in meters.  
-- \( h \) = distance between the charge surface and the ceiling of the mill in meters.  
-- \( \beta \) = angle of the charge arc in radians.
-
----
-
 ## 💡 Example
 
 ### Example 1:
