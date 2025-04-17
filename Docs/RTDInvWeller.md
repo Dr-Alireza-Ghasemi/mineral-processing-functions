@@ -20,40 +20,6 @@ This function estimates the **Weller RTD (Residence Time Distribution) Parameter
 | `Time`          | Array of Doubles | The array of time values (e.g., experimental time points).                   |
 | `Conc.`         | Array of Doubles | The array of experimental concentration values corresponding to the time points. |
 
----
-
-## 🧮 Functionality
-
-The function uses numerical optimization to calculate the following **Weller RTD Parameters**:  
-- \( T_l \): **Longitudinal dispersion time**  
-- \( T_s \): **Short-circuiting time**  
-- \( T_{pf} \): **Peak flow time**
-
-### Key Steps:
-1. **Preprocessing**:  
-   The concentration values are normalized, and the area under the curve is calculated using the trapezoidal rule.
-
-2. **Model Definition**:  
-   The following model is used for fitting:  
-   $$
-   \text{Model}(t) = \left(B \cdot e^B - A \cdot e^B + A \cdot e^{B \cdot \frac{T_s}{T_l}}\right) \cdot \frac{A}{T_l}
-   $$
-   Where:  
-   - \( A = \frac{T_l}{T_l - T_s} \)  
-   - \( B = \frac{-(t - T_{pf})}{T_s} \)
-
-3. **Objective Function**:  
-   The sum of squared errors between the experimental and model data is minimized:  
-   $$
-   \text{Error} = \sum \left[ y_i - \text{Model}(t_i) \cdot \text{Area} \right]^2
-   $$
-
-4. **Optimization**:  
-   - Nelder-Mead Simplex optimization is used to find the best parameters \( T_l \), \( T_s \), and \( T_{pf} \) by minimizing the objective function.
-   - Constraints ensure valid parameter values (e.g., \( T_l > T_s > 0 \)).
-
-5. **Output**:  
-   The optimized values of \( T_l \), \( T_s \), and \( T_{pf} \) are returned.
 
 ---
 
