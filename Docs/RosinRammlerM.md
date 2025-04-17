@@ -22,25 +22,6 @@ This function calculates the **uniformity constant (m)** of the **Rosin-Rammler 
 
 ---
 
-## 🧮 Formula
-
-The function calculates the **uniformity constant (m)** using a logarithmic transformation and linear regression:
-
-1. **Logarithmic Transformations**:
-   - Transform the sieve sizes (`s`) and cumulative passing percentages (`m`) as follows:
-     - \( x[i] = \ln(s[i]) \)
-     - \( y[i] = \ln(\ln(1 / (1 - m[i] / 100))) \)
-
-2. **Linear Regression**:
-   - Perform linear regression between \( x[i] \) and \( y[i] \):
-     - \( y = \text{slope} \times x + \text{intercept} \)
-
-3. **Uniformity Constant**:
-   - The **uniformity constant (m)** is given by the slope of the regression line:
-     - \( m = \text{slope} \)
-
----
-
 ## 💡 Example
 
 ### Example 1:
