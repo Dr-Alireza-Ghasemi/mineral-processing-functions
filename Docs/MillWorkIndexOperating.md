@@ -24,22 +24,6 @@ This function calculates the **Bond Work Index (kWh/t)** for a milling operation
 
 ---
 
-## 🧮 Formula
-
-The Bond Work Index (kWh/t) is calculated using the following formula:
-
-$$
-\text{Work Index} = \frac{W}{10 \cdot \left(\frac{1}{\sqrt{P80}} - \frac{1}{\sqrt{F80}}\right)} \cdot \frac{1000}{M}
-$$
-
-Where:  
-- \( W \): Energy consumption of the mill (kWh).  
-- \( M \): Total mass of the ground material (kg).  
-- \( F80 \): Size of 80% passing in the feed (µm).  
-- \( P80 \): Size of 80% passing in the product (µm).  
-
----
-
 ## 💡 Example
 
 ### Example 1:
