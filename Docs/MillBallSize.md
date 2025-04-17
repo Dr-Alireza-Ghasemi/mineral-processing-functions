@@ -25,23 +25,6 @@ This function calculates the **top size of grinding media (balls)** in millimete
 
 ---
 
-## 🧮 Formula
-
-The top size of the grinding media (balls) is calculated using the following formula:
-
-$$
-\text{Ball Size (mm)} = \sqrt{\frac{F80 \cdot 1000 \cdot Wi \cdot 0.9072}{200 \cdot Vcr} \cdot \sqrt{\frac{\rho}{\sqrt{\frac{Diameter}{0.305}}}}} \cdot 25.4
-$$
-
-Where:  
-- \( F80 \): Feed size (mm).  
-- \( Wi \): Work index (kWh/t).  
-- \( Vcr \): Percentage of the critical speed (\%).  
-- \( \rho \): Specific gravity of the feed material (t/m³).  
-- \( Diameter \): Mill diameter (m).  
-
----
-
 ## 💡 Example
 
 ### Example 1:
