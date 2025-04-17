@@ -28,7 +28,7 @@ Separation Efficiency combines **recovery** and **concentrate grade** into a sin
 The separation efficiency is calculated using the following formula:
 
 $$
-\text{Separation Efficiency (\%)} = \frac{c \cdot (f - t) \cdot (c - f) \cdot (100 - t)}{f \cdot (c - t)^2 \cdot (100 - f)}
+\text{Separation Efficiency (\\%)} = \frac{c \cdot (f - t) \cdot (c - f) \cdot (100 - t)}{f \cdot (c - t)^2 \cdot (100 - f)}
 $$
 
 Where:  
