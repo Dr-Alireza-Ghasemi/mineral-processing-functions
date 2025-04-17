@@ -22,21 +22,6 @@ This function converts the mill speed, expressed as a percentage of the **critic
 
 ---
 
-## 🧮 Formula
-
-The mill speed in RPM is calculated using the following formula:
-
-$$
-\text{Mill Speed (RPM)} = \frac{\text{SpeedPercent}}{100} \times \frac{42.3}{\sqrt{d}}
-$$
-
-Where:  
-- \( d \): Diameter of the mill in meters.  
-- \( \text{SpeedPercent} \): Speed of the mill as a percentage of its critical speed.  
-- \( \frac{42.3}{\sqrt{d}} \): Critical speed of the mill in RPM.
-
----
-
 ## 💡 Example
 
 ### Example 1:
