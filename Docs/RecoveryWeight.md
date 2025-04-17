@@ -29,7 +29,7 @@ The term "**recovery**" refers to the percentage of the total mineral present in
 The recovery percentage is calculated using the following formula:
 
 $$
-\text{Recovery (\%)} = \frac{C \cdot c}{F \cdot f} \cdot 100
+\text{Recovery (\\%)} = \frac{C \cdot c}{F \cdot f} \cdot 100
 $$
 
 Where:  
