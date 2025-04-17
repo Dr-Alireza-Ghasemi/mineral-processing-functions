@@ -1,7 +1,7 @@
 # 🔁 RECOVERY.WEIGHT
 
 🔹 **Description**:  
-The term "**recovery**" refers to the percentage of the total mineral present in the ore that is extracted into the concentrate. This function calculates the recovery using the grade and weight of both the **concentrate** and the **feed**.
+The term "**recovery**" refers to the percentage of the total mineral present in the ore that is extracted into the concentrate. This function calculates the recovery based on the weight and grade of both the concentrate and the feed.
 
 ---
 
@@ -26,17 +26,17 @@ The term "**recovery**" refers to the percentage of the total mineral present in
 
 ## 🧮 Formula
 
-The recovery is calculated using the following formula:
+The recovery percentage is calculated using the following formula:
 
 $$
-\text{Recovery (\%)} = \frac{C \cdot c}{F \cdot f}
+\text{Recovery (\%)} = \frac{C \cdot c}{F \cdot f} \cdot 100
 $$
 
 Where:  
-- \( C \): Total mass of the concentrate.  
-- \( c \): Average grade of the concentrate.  
-- \( F \): Total mass of the feed.  
-- \( f \): Average grade of the feed.  
+- \( C \): Weight of the concentrate.  
+- \( c \): Grade of the concentrate.  
+- \( F \): Weight of the feed.  
+- \( f \): Grade of the feed.  
 
 ---
 
@@ -44,29 +44,34 @@ Where:
 
 ### Example 1:
 Calculate the recovery for the following parameters:  
-- Weight of concentrate: **50 tons**  
-- Grade of concentrate: **30% (0.30)**  
-- Weight of feed: **200 tons**  
-- Grade of feed: **10% (0.10)**
+- Weight of concentrate (\( C \)): **50 tons**  
+- Grade of concentrate (\( c \)): **30% (0.30)**  
+- Weight of feed (\( F \)): **200 tons**  
+- Grade of feed (\( f \)): **10% (0.10)**
 
 ```excel
 =RECOVERY.WEIGHT(50, 0.30, 200, 0.10)
 ```
 
-**Result**: `0.75` (or 75% recovery)
+**Result**: `75%`
 
 ---
 
 ## 📝 Notes
 
 - Ensure that the grades (`c` and `f`) are expressed as decimals (e.g., 30% as 0.30).
-- The result is a decimal value. Multiply by 100 to express it as a percentage.
+- The result is returned as a percentage value.
 - The function returns `-1` if user authentication fails.
 
 ---
 
+📌 **Help Topic**:  
+For more details, visit the [documentation](https://github.com/Dr-Alireza-Ghasemi/mineral-processing-functions/blob/main/Docs/RecoveryWeight.md).
+
+---
+
 📌 **Related Functions**:
-- N/A  
+- [`RECOVERY.GRADE`](./RecoveryGrade.md)
 
 ---
 
