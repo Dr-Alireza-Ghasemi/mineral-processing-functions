@@ -1,76 +1,67 @@
-# 🔁 RECOVERY.GRADE
+# 🔁 CIRCULATINGLOAD
 
 🔹 **Description**:  
-The term "**recovery**" refers to the percentage of the total mineral present in the ore that is extracted into the concentrate. This function calculates the recovery based on the grades of the concentrate, tail, and feed.
+The `CIRCULATINGLOAD` function calculates the circulating load of a grinding circuit based on the weight fractions (or percentages) in different size classes of feed, underflow, and overflow. This is essential for optimizing grinding circuit performance.
 
 ---
 
 ## 📥 Syntax
 
 ```excel
-=RECOVERY.GRADE(c, t, f)
+=CIRCULATINGLOAD(F, U, O)
 ```
 
 ---
 
 ## 🧾 Parameters
 
-| Parameter                | Type   | Description                                                                 |
-|---------------------------|--------|-----------------------------------------------------------------------------|
-| `c` (Grade of Concentrate) | Double | The grade of the concentrate.                                               |
-| `t` (Grade of Tail)        | Double | The grade of the tail.                                                      |
-| `f` (Grade of Feed)        | Double | The grade of the feed.                                                      |
-
----
-
-## 🧮 Formula
-
-The recovery percentage is calculated using the following formula:
-
-$$
-\text{Recovery (\\%)} = \frac{c \cdot (f - t)}{f \cdot (c - t)} \cdot 100
-$$
-
-Where:  
-- \( c \): Grade of the concentrate.  
-- \( t \): Grade of the tail.  
-- \( f \): Grade of the feed.  
+| Parameter                | Type           | Description                                                         |
+|---------------------------|----------------|---------------------------------------------------------------------|
+| `F` (Feed)               | Array of Doubles | Weight fraction (or %) in each size class of feed.                  |
+| `U` (Underflow)          | Array of Doubles | Weight fraction (or %) in each size class of underflow.             |
+| `O` (Overflow)           | Array of Doubles | Weight fraction (or %) in each size class of overflow.              |
 
 ---
 
 ## 💡 Example
 
 ### Example 1:
-Calculate the recovery for the following parameters:  
-- Grade of concentrate (\( c \)): **30% (0.30)**  
-- Grade of tail (\( t \)): **5% (0.05)**  
-- Grade of feed (\( f \)): **10% (0.10)**
+Calculate the circulating load for the following parameters:
+
+| **Size Class** | **Feed (F)** | **Underflow (U)** | **Overflow (O)** |
+|----------------|--------------|-------------------|------------------|
+| 1             | 0.12         | 0.18             | 0.08            |
+| 2             | 0.15         | 0.20             | 0.10            |
+| 3             | 0.10         | 0.16             | 0.06            |
 
 ```excel
-=RECOVERY.GRADE(0.30, 0.05, 0.10)
+=CIRCULATINGLOAD({0.12, 0.15, 0.10}, {0.18, 0.20, 0.16}, {0.08, 0.10, 0.06})
 ```
 
-**Result**: `75%`
+**Result**: The circulating load percentage calculated from the regression slope.
 
 ---
 
 ## 📝 Notes
 
-- Ensure that the grades (`c`, `t`, and `f`) are expressed as decimals (e.g., 30% as 0.30).
-- The result is returned as a percentage value.
-- The function returns `-1` if user authentication fails.
+- Ensure that all input arrays (`F`, `U`, `O`) are of the same length.
+- The function uses regression analysis to calculate the result, requiring valid numeric inputs.
+- The function returns `-1` if:
+  - User authentication fails.
+  - Input arrays are invalid or mismatched.
 
 ---
 
 📌 **Help Topic**:  
-For more details, visit the [documentation](https://github.com/Dr-Alireza-Ghasemi/mineral-processing-functions/blob/main/Docs/RecoveryGrade.md).
+For more details, visit the [documentation](https://github.com/Dr-Alireza-Ghasemi/mineral-processing-functions/blob/main/Docs/CirculatingLoad.md).
 
 ---
 
 📌 **Related Functions**:
+- [`RECOVERY.GRADE`](./RecoveryGrade.md)
 - [`RECOVERY.WEIGHT`](./RecoveryWeight.md)
 
 ---
 
 Created by: [Dr. Alireza Ghasemi](https://github.com/Dr-Alireza-Ghasemi)  
-📅 Last updated: 2025-04-17
+📅 Last updated: 2025-04-20
