@@ -52,11 +52,6 @@ Calculate the circulating load for the following parameters:
 
 ---
 
-📌 **Help Topic**:  
-For more details, visit the [documentation](https://github.com/Dr-Alireza-Ghasemi/mineral-processing-functions/blob/main/Docs/CirculatingLoad.md).
-
----
-
 📌 **Related Functions**:
 - [`RECOVERY.GRADE`](./RecoveryGrade.md)
 - [`RECOVERY.WEIGHT`](./RecoveryWeight.md)
