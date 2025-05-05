@@ -17,31 +17,35 @@ Whether you're an industry professional, researcher, or student, this tool provi
 To start using the Mineral Processing Functions Add-in, follow these step-by-step instructions:
 
 1. **Download the Add-in File**:  
-   Download the `.xlam` file from the [Releases Section](https://github.com/Dr-Alireza-Ghasemi/mineral-processing-functions/releases).
+   Download the `.zip` file containing the add-in from the [Releases Section](https://github.com/Dr-Alireza-Ghasemi/mineral-processing-functions/releases).
 
-2. **Save the File**:  
-   Save the downloaded file to a secure and permanent location on your computer.
+2. **Extract the File**:  
+   After downloading, **extract the contents of the .zip file** to a secure and permanent location on your computer.
 
-3. **Open Excel**:  
+3. **Install .NET Runtime (If Required)**:  
+   If your computer doesn’t have the appropriate .NET runtime installed, download and install it from the official Microsoft website:  
+   [Download .NET Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.36-windows-x64-installer)
+
+4. **Open Excel**:  
    Launch Microsoft Excel on your computer.
 
-4. **Access Excel Options**:  
+5. **Access Excel Options**:  
    - Click on the **File** menu in the top-left corner.  
    - Select **Options** from the dropdown menu.
 
-5. **Navigate to Add-ins**:  
+6. **Navigate to Add-ins**:  
    - In the Excel Options window, click on **Add-ins** from the left-hand menu.  
    - At the bottom of the window, ensure **Excel Add-ins** is selected in the dropdown, then click **Go**.
 
-6. **Browse for the Add-in File**:  
+7. **Browse for the Add-in File**:  
    - In the Add-ins window, click **Browse**.  
-   - Locate and select the `.xlam` file you downloaded earlier, then click **OK**.
+   - Locate and select the `.xlam` file you extracted earlier, then click **OK**.
 
-7. **Activate the Add-in**:  
+8. **Activate the Add-in**:  
    - Once the file is loaded, ensure the checkbox next to the add-in name is checked.  
    - Click **OK** to finalize.
 
-8. **Restart Excel**:  
+9. **Restart Excel**:  
    Restart Excel to ensure the add-in is fully integrated.
 
 ---
