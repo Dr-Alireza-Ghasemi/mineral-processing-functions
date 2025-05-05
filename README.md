@@ -32,21 +32,33 @@ To start using the Mineral Processing Functions Add-in, follow these step-by-ste
 5. **Access Excel Options**:  
    - Click on the **File** menu in the top-left corner.
        <p align="center">
-     <img src="https://github.com/Dr-Alireza-Ghasemi/mineral-processing-functions/blob/main/1.jpg" alt="Access Excel Options" width="500">
+     <img src="https://github.com/Dr-Alireza-Ghasemi/mineral-processing-functions/blob/main/1.jpg" alt="Access Excel Options" width="800">
    </p>
    - Select **Options** from the dropdown menu.
+     <p align="center">
+     <img src="https://github.com/Dr-Alireza-Ghasemi/mineral-processing-functions/blob/main/2.jpg" alt="Access Excel Options" width="800">
+   </p>
 
 6. **Navigate to Add-ins**:  
    - In the Excel Options window, click on **Add-ins** from the left-hand menu.  
    - At the bottom of the window, ensure **Excel Add-ins** is selected in the dropdown, then click **Go**.
+       <p align="center">
+     <img src="https://github.com/Dr-Alireza-Ghasemi/mineral-processing-functions/blob/main/3.jpg" alt="Access Excel Options" width="800">
+   </p>
 
 7. **Browse for the Add-in File**:  
    - In the Add-ins window, click **Browse**.  
-   - Locate and select the `.xlam` file you extracted earlier, then click **OK**.
+   - Locate and select the `.xll` file you extracted earlier, then click **OK**.
+     <p align="center">
+     <img src="https://github.com/Dr-Alireza-Ghasemi/mineral-processing-functions/blob/main/4.jpg" alt="Access Excel Options" width="800">
+   </p>
 
 8. **Activate the Add-in**:  
    - Once the file is loaded, ensure the checkbox next to the add-in name is checked.  
    - Click **OK** to finalize.
+       <p align="center">
+     <img src="https://github.com/Dr-Alireza-Ghasemi/mineral-processing-functions/blob/main/5.jpg" alt="Access Excel Options" width="800">
+   </p>
 
 9. **Restart Excel**:  
    Restart Excel to ensure the add-in is fully integrated.
