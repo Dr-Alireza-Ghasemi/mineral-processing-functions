@@ -31,40 +31,28 @@ To start using the Mineral Processing Functions Add-in, follow these step-by-ste
 
 5. **Access Excel Options**:  
    - Click on the **File** menu in the top-left corner.
-   <p align="center">
-     <img src="https://github.com/Dr-Alireza-Ghasemi/mineral-processing-functions/blob/main/images/1.jpg" alt="Access Excel Options" style="max-width: 100%; height: auto;">
-   </p>
+  ![Image Description](https://raw.githubusercontent.com/Dr-Alireza-Ghasemi/mineral-processing-functions/main/images/1.jpg)
    - Select **Options** from the menu.
-   <p align="center">
-     <img src="https://github.com/Dr-Alireza-Ghasemi/mineral-processing-functions/blob/main/images/2.jpg" alt="Access Excel Options" style="max-width: 100%; height: auto;">
-   </p>
+   ![Image Description](https://raw.githubusercontent.com/Dr-Alireza-Ghasemi/mineral-processing-functions/main/images/2.jpg)
 
 7. **Navigate to Add-ins**:  
    - In the Excel Options window, click on **Add-ins** from the left-hand menu.  
    - At the bottom of the window, ensure **Excel Add-ins** is selected in the dropdown, then click **Go**.
-   <p align="center">
-     <img src="https://github.com/Dr-Alireza-Ghasemi/mineral-processing-functions/blob/main/images/3.jpg" alt="Access Excel Options" style="max-width: 100%; height: auto;">
-   </p>
+   ![Image Description](https://raw.githubusercontent.com/Dr-Alireza-Ghasemi/mineral-processing-functions/main/images/3.jpg)
 
 8. **Browse for the Add-in File**:  
    - In the Add-ins window, click **Browse**.  
    - Locate and select the `.xll` file you extracted earlier, then click **OK**.
-   <p align="center">
-     <img src="https://github.com/Dr-Alireza-Ghasemi/mineral-processing-functions/blob/main/images/4.jpg" alt="Access Excel Options" style="max-width: 100%; height: auto;">
-   </p>
+  ![Image Description](https://raw.githubusercontent.com/Dr-Alireza-Ghasemi/mineral-processing-functions/main/images/4.jpg)
 
 9. **Activate the Add-in**:  
    - Once the file is loaded, ensure the checkbox next to the add-in name is checked.  
    - Click **OK** to finalize.
-   <p align="center">
-     <img src="https://github.com/Dr-Alireza-Ghasemi/mineral-processing-functions/blob/main/images/5.jpg" alt="Access Excel Options" style="max-width: 100%; height: auto;">
-   </p>
+   ![Image Description](https://raw.githubusercontent.com/Dr-Alireza-Ghasemi/mineral-processing-functions/main/images/5.jpg)
 
 10. **Restart Excel**:  
    Restart Excel to ensure the add-in is fully integrated.
-<p align="center">
-     <img src="https://github.com/Dr-Alireza-Ghasemi/mineral-processing-functions/blob/main/images/6.jpg" alt="Access Excel Options" style="max-width: 100%; height: auto;">
-   </p>
+ ![Image Description](https://raw.githubusercontent.com/Dr-Alireza-Ghasemi/mineral-processing-functions/main/images/6.jpg)
 
 
 ---
