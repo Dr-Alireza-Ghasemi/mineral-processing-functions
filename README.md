@@ -30,7 +30,10 @@ To start using the Mineral Processing Functions Add-in, follow these step-by-ste
    Launch Microsoft Excel on your computer.
 
 5. **Access Excel Options**:  
-   - Click on the **File** menu in the top-left corner.  
+   - Click on the **File** menu in the top-left corner.
+       <p align="center">
+     <img src="https://github.com/Dr-Alireza-Ghasemi/mineral-processing-functions/blob/main/1.jpg" alt="Access Excel Options" width="500">
+   </p>
    - Select **Options** from the dropdown menu.
 
 6. **Navigate to Add-ins**:  
