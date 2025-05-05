@@ -24,20 +24,6 @@ This function computes the **propagation of uncertainty** using numerical differ
 
 ---
 
-## 🧮 Formula
-
-The function calculates the propagated uncertainty using the following formula:
-
-\[
-\text{Uncertainty} = \sqrt{\sum_{i=1}^{n} \left( \frac{\partial f}{\partial x_i} \cdot \sigma_{x_i} \right)^2}
-\]
-
-Where:  
-- \( x_i \): Each value in `Xi`.  
-- \( \sigma_{x_i} \): Standard deviation of \( x_i \) from `Sxi`.  
-- \( \frac{\partial f}{\partial x_i} \): Numerical derivative of the function with respect to \( x_i \).
-
----
 
 ## 💡 Examples
 
