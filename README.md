@@ -52,7 +52,8 @@ To start using the Mineral Processing Functions Add-in, follow these step-by-ste
 
 10. **Restart Excel**:  
     - Restart Excel to ensure the add-in is fully integrated.
-![Image Description](https://raw.githubusercontent.com/Dr-Alireza-Ghasemi/mineral-processing-functions/main/images/6.jpg)
+      
+    ![Image Description](https://raw.githubusercontent.com/Dr-Alireza-Ghasemi/mineral-processing-functions/main/images/6.jpg)
 
 
 ---
