@@ -1,7 +1,7 @@
 # ⚙️ PROPAGATION.OF.ERROR
 
 🔍 **Description**:  
-This function computes the **propagation of uncertainty** using numerical differentiation, based on measured values (`Xi`) and their associated standard deviations (`Sxi`). The propagated uncertainty is calculated for the result of a function (`F`) and returned in a specified output cell (`Out`).
+This function computes the **propagation of uncertainty**, based on measured values (`Xi`) and their associated standard deviations (`Sxi`). The propagated uncertainty is calculated for the result of a function (`F`) and returned in a specified output cell (`Out`).
 
 ---
 
@@ -53,7 +53,6 @@ The function result (`F`) is in cell `C1`, and the propagated uncertainty will b
 - The `Xi` and `Sxi` ranges **must have the same length**; otherwise, an error is returned.  
 - The `F` cell must contain a valid formula dependent on `Xi`.  
 - If inputs are not valid, the function will return `"Inputs must be cell ranges"`.  
-- The function uses numerical differentiation with a small increment (\( h = 10^{-6} \)).  
 
 ---
 
