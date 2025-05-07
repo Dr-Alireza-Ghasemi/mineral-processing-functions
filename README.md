@@ -14,8 +14,6 @@ Whether you're an industry professional, researcher, or student, this tool provi
   </a>
 </p>
 
-> [Watch on YouTube](https://youtu.be/ZRCLKas0rHE)
-
 ---
 
 ## 🎯 Key Features
