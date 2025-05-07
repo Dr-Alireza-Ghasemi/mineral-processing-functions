@@ -6,6 +6,18 @@ Whether you're an industry professional, researcher, or student, this tool provi
 
 ---
 
+## 🎥 Watch the Introduction Video
+
+<p align="center">
+  <a href="https://youtu.be/ZRCLKas0rHE" target="_blank">
+    <img src="https://img.youtube.com/vi/ZRCLKas0rHE/0.jpg" alt="Watch the Introduction Video" style="width:70%; height:auto; border:none;">
+  </a>
+</p>
+
+> [Watch on YouTube](https://youtu.be/ZRCLKas0rHE)
+
+---
+
 ## 🎯 Key Features
 - **Complete Coverage of Mineral Processing Equations**: Includes recovery, enrichment, concentration ratio, RTD modeling, sample mass estimation, and more.
 - **Based on Trusted References**: All formulas are sourced from the most credible and widely recognized resources in mineral processing.
