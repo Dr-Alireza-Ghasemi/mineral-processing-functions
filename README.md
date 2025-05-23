@@ -42,7 +42,7 @@ To start using the Mineral Processing Functions Add-in, follow these step-by-ste
    If your computer doesn’t have the appropriate .NET runtime installed, click the button below to download and install it from the official Microsoft website:
 
    <p align="center">
-      <a href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.36-windows-x64-installer">
+      <a href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.16-windows-x64-installer">
          <img src="https://img.shields.io/badge/Download-.NET%20Runtime-blue?style=for-the-badge&logo=microsoft" alt="Download .NET Runtime">
       </a>
    </p>
